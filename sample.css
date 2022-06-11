@@ -1,3 +1,23 @@
-body {
-font-family: "Arial", "メイリオ";
+/*
+  フォント名は Win と Mac で少しだけ異なる。
+  Windows: "游ゴシック", "Yu Gothic"
+  Mac: "游ゴシック体", "YuGothic"
+*/
+
+@font-face {
+  font-family: "YuGothic M";
+  src: local("Yu Gothic Medium"),
+       local("Yu Gothic");
+  font-weight: 500;
+  text-align: center; 
+       /*
+         Chrome 58.0.3029.110 (64-bit) では
+         "Yu Gothic Medium" を認識しないバグあるため
+         "Yu Gothic" と font-weight も併せて指定。
+       */
+}
+
+p {
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
+  text-align: center;
 }
