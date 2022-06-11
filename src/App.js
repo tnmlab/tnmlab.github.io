@@ -1,4 +1,5 @@
 import "./styles.css";
+import "jekyll-theme-architect";
 
 export default function App() {
   return (
