@@ -21,3 +21,15 @@ p {
   font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
   text-align: center;
 }
+
+h1{
+　text-align:left;
+}
+ 
+h2{
+　text-align:right;
+}
+ 
+h3{
+　text-align:center;
+}
