@@ -1,5 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "jekyll-theme-architect";
 
 import App from "./App";
 
